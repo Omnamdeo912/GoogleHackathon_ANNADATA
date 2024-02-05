@@ -1,0 +1,27 @@
+def crop(crop_name):
+    crop_data = {
+    "wheat":[ "U.P., Punjab, Haryana, Rajasthan, M.P., bihar", "rabi"],
+    "paddy":[ "W.B., U.P., Andhra Pradesh, Punjab, T.N.", "kharif"],
+    "barley":["Rajasthan, Uttar Pradesh, Madhya Pradesh, Haryana, Punjab", "rabi"],
+    "maize":[ "Karnataka, Andhra Pradesh, Tamil Nadu, Rajasthan, Maharashtra", "kharif"],
+    "bajra":[ "Rajasthan, Maharashtra, Haryana, Uttar Pradesh and Gujarat", "kharif"],
+    "copra":["Kerala, Tamil Nadu, Karnataka, Andhra Pradesh, Orissa, West Bengal","rabi"],
+    "cotton":["Punjab, Haryana, Maharashtra, Tamil Nadu, Madhya Pradesh, Gujarat"],
+    "masoor":["Uttar Pradesh, Madhya Pradesh, Bihar, West Bengal, Rajasthan", "rabi"],
+    "gram":["Madhya Pradesh, Maharashtra, Rajasthan, Uttar Pradesh, Andhra Pradesh & Karnataka", "rabi"],
+    "groundnut":["Andhra Pradesh, Gujarat, Tamil Nadu, Karnataka, and Maharashtra", "kharif"],
+    "arhar":["Maharashtra, Karnataka, Madhya Pradesh and Andhra Pradesh", "kharif"],
+    "sesamum":["Maharashtra, Rajasthan, West Bengal, Andhra Pradesh, Gujarat", "rabi"],
+    "jowar":["Maharashtra, Karnataka, Andhra Pradesh, Madhya Pradesh, Gujarat", "kharif"],
+    "moong":["Rajasthan, Maharashtra, Andhra Pradesh", "rabi"],
+    "niger":["Andha Pradesh, Assam, Chattisgarh, Gujarat, Jharkhand", "kharif"],
+    "rice":["Rajasthan, Uttar Pradesh, Haryana, Madhya Pradesh, and Gujarat", "rabi"],
+    "jute":[" West Bengal , Assam , Orissa , Bihar , Uttar Pradesh", "kharif"],
+    "safflower":[ "Maharashtra, Karnataka, Andhra Pradesh, Madhya Pradesh, Orissa", "kharif"],
+    "soyabean":["Madhya Pradesh, Maharashtra, Rajasthan, Madhya Pradesh and Maharashtra", "kharif"],
+    "urad":["Andhra Pradesh, Maharashtra, Madhya Pradesh, Tamil Nadu", "rabi"],
+    "ragi":["Maharashtra, Tamil Nadu and Uttarakhand", "kharif"],
+    "sunflower":[ "Karnataka, Andhra Pradesh, Maharashtra, Bihar, Orissa", "rabi"],
+    "sugarcane":[],
+    }
+    return crop_data[crop_name]
